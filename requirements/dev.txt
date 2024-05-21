@@ -1,3 +1,4 @@
 -r ci.txt
 -r towncrier.txt
 cherry_picker==2.1.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
